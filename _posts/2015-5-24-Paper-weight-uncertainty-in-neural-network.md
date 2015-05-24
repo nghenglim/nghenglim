@@ -24,7 +24,7 @@ Instead of a fixed value, they view neural network as a probabilistic model.
 
 ![No-Drop vs DropOut vs DropConnect]({{ site.baseurl }}/images/2015052400.png "No-Drop vs DropOut vs DropConnect")
 
-In Dropout or DropConnect, randomly selected subset of activations are set to zero within each layer. However in
+In Dropout or DropConnect, randomly selected subset of activations or weights are set to zero within each layer. However in
 Bayes by Backprop, the activation is set based on its probability. When the dataset is big enough, 
 its similar to the usual backpropagation algorithm, with more regularization.
 
