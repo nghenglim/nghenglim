@@ -3,7 +3,7 @@ layout: post
 title: Coursera course review - From Nand to Tetris
 ---
 
-![Android]({{ site.baseurl }}/images/2015053000.png "android")
+![Nand to Tetris]({{ site.baseurl }}/images/2015053000.jpg "Nand to Tetris")
 
 This course is [From Nand to Tetris / Part I by Shimon Schocken, Noam Nisan](https://www.coursera.org/course/nand2tetris1)
 
@@ -22,7 +22,7 @@ process done by the laptop -- logic gates, ALU, RAM, BUSES, machine language and
 
 - I did not do the assignment of this course, as it needs to install a software that chrome thinks that it is harmful.
 - This course require no hardware to start, it uses a software program to simulate and to write a logic gate. From the logic gates we build a 16 bits pc.
-  - Nowadays, we are not building a computer from a computer.
+  - Nowadays, we are building a computer from a computer.
 - There are no part 2 yet, the book "From Nand to Tetris" should contain from assembly to tetris part.
 
 
