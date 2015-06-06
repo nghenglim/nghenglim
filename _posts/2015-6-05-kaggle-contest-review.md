@@ -20,6 +20,7 @@ Submissions are evaluated one the Root Mean Squared Logarithmic Error (RMSLE). T
 ![Bike sharing demand evaluation]({{ site.baseurl }}/images/2015060501.png "bike sharing demand evaluation")
 
 Where:
+
 - n is the number of hours in the test set
 - pi is your predicted count
 - ai is the actual count
