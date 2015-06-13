@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Paper reading - Weight Uncertainty in Neural Networks.
+title: Paper reading - ADADELTA: AN ADAPTIVE LEARNING RATE METHOD
 ---
 
 ![SGD vs ADADELTA vs ADAGRAD vs MOMENTUM]({{ site.baseurl }}/images/2015061300.png "SGD vs ADADELTA vs ADAGRAD vs MOMENTUM")
