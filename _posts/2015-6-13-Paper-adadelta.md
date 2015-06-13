@@ -3,7 +3,7 @@ layout: post
 title: Paper reading - Weight Uncertainty in Neural Networks.
 ---
 
-![SGD comparison]({{ site.baseurl }}/images/2015061300.png "nn vs Bayes by Backprop")
+![SGD vs ADADELTA vs ADAGRAD vs MOMENTUM]({{ site.baseurl }}/images/2015061300.png "SGD vs ADADELTA vs ADAGRAD vs MOMENTUM")
 
 This [paper](http://www.matthewzeiler.com/pubs/googleTR2012/googleTR2012.pdf) was done by Matthew D. Zeiler while he was an intern at Google. 
 
