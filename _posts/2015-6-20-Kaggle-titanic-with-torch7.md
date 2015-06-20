@@ -24,15 +24,15 @@ IDIAP, Purdue and several other companies and research labs.
 Validation is using back the training dataset since the dataset will be too small if I separate it. As I am using tanh as transfer function
 , for those model output bigger than 0, I classified it as survived. Using model after training for 20000 epoch, the result are:
 
-- False Positive : 27
-- True Positive : 275
-- False Negative : 67
-- True Negative : 522
+- False Positive : 31
+- True Positive : 276
+- False Negative : 66
+- True Negative : 518
 
 ### Submission Result
 
 The score is the percentage of passengers we correctly predict. The submission result using model on epoch 20000 is 0.74641. From the 
-result, we know that our model is slightly overfitted because training set accuracy is 88.206% while test set is 74.646%.
+result, we know that our model is slightly overfitted because training set accuracy is 89.113% while test set is 74.646%.
 
 ### Some Thought
 
