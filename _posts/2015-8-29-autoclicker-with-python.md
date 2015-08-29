@@ -13,7 +13,7 @@ This autoclicker is mainly for the game [realm grinder](www.kongregate.com/games
 - Save your time from duplicate clicking
 - Learn some python code
 
-### code
+### Code
 I have uploaded the code to the [python autoclicker github repo](https://github.com/nghenglim/python_autoclicker).
 
 As I am running in windows 8, there are some python module that is needed to be installed through window binaries - for example pywin32.
