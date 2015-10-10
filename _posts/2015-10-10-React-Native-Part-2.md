@@ -9,15 +9,15 @@ Last week we talk about react native, that is after I have go through a few days
 
 ### What I have now
 
-- App run in Iphone 4S with IOS 7.1
-- App get updated bundle file (new UI and feature) asynchronously from remote server
+- App runs in Iphone 4S with IOS 7.1
+- App gets new bundle file (new UI and feature) asynchronously from remote server
 - App as shown on the image above
 
 ### The real advantage of react native on IOS
 
 React Native are able to release the update quicker than the native apps. It is due to the nature that native app have to go through Apple QA process even for minor upgrades.
 
-Webview App can also do quick update just like for react native, however it cannot utilize the native resource of the phone itself for example Address Book, Camera and Sqlite storage.
+WebView App can also do quick update just like for react native, however it cannot utilize the native resource of the phone itself for example Address Book, Camera and Database storage.
 
 ### The future of mobile development
 
