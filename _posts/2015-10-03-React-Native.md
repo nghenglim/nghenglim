@@ -1,6 +1,8 @@
 ---
 layout: post
 title: React Native IOS & Android
+category: programming
+tags: [react-native, iOS]
 ---
 
 ![React Native]({{ site.baseurl }}/images/2015100300.png "React Native")

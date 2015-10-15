@@ -6,25 +6,18 @@ permalink: /about/
 
 I'm currently a full stack web developer at [JobStreet](http://www.jobstreet.com) SeekAsia!
 
-### More Information
+### Skills
 
-* Expert at 
-  - LAMP
-  - Twitter Bootstrap
-  - Jquery
-* Advanced at ...
-* Intermediate at
-  - AngularJS
-* Basic at
-  - Android
-  - Deep Learning
-* Beginner at ...
+- Web Application (PHP, Javascript, Jquery, CSS)
+- Mobile Development (iOS, Android, React Native)
+- Database (Sql, MySQL, MSSQL)
+- Machine Learning (Lua/Python)
+- Server setup (vagrant - CentOS)
+- Self Learning
 
-### What I currently do in free time
+### Interested In
 
-1. Learning in [Coursera](https://www.coursera.org/)
-2. Watching paper about machine learning
-3. [Reddit](http://www.reddit.com/)
+Software development that makes the world a better place. Uh wait, maybe internet of things too, though less involving in internet of things as it burns a lot of money to buy the hardware.
 
 ### Contact me
 
