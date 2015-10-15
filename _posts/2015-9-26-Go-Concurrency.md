@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Go Concurrency (Google IO 2012)
+tags: [Golang]
 ---
 
 ![Go]({{ site.baseurl }}/images/2015091900.jpg "Go")

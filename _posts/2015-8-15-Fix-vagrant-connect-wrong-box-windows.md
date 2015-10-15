@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Fix vagrant connect to wrong box - Windows
+tags: [Vagrant]
 ---
 
 ![Vagrant]({{ site.baseurl }}/images/2015081500.png "Vagrant")

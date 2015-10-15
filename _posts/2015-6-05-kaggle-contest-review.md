@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Kaggle contest review - Bike Sharing Demand
+tags: [Machine-learning]
 ---
 
 ![Bike sharing demand]({{ site.baseurl }}/images/2015060500.png "bike sharing demand")
@@ -40,6 +41,3 @@ During the process of competing, I have improved quite a lot. This is my first k
 with prize pool. Hope will have a good result with state of the art machine learning technique - deep learning.
 
 Its quite interesting working in kaggle project as I am competing with the world data scientist. By the way, this is [my kaggle profile](https://www.kaggle.com/nghenglim)
-
-
-

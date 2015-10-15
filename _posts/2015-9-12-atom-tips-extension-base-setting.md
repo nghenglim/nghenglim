@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Atom Tips Extension Base Setting
+tags: [Atom]
 ---
 
 ![Atom]({{ site.baseurl }}/images/2015091200.png "Atom")

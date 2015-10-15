@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Goroutine
+tags: [Golang]
 ---
 
 ![Go]({{ site.baseurl }}/images/2015091900.jpg "Go")

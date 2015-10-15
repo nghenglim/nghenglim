@@ -1,16 +1,17 @@
 ---
 layout: post
 title: Paper reading - ADADELTA AN ADAPTIVE LEARNING RATE METHOD
+tags: [Machine-learning]
 ---
 
 ![SGD vs ADADELTA vs ADAGRAD vs MOMENTUM]({{ site.baseurl }}/images/2015061300.png "SGD vs ADADELTA vs ADAGRAD vs MOMENTUM")
 
-This [paper](http://www.matthewzeiler.com/pubs/googleTR2012/googleTR2012.pdf) was done by Matthew D. Zeiler while he was an intern at Google. 
+This [paper](http://www.matthewzeiler.com/pubs/googleTR2012/googleTR2012.pdf) was done by Matthew D. Zeiler while he was an intern at Google.
 
 ### Introduction
 
 The aim of many machine learning methods is to update a set of parameters $x$ in order to optimize an objective function $f(x)$.
-This often involves some iterative procedure which applies changes to the parameters, $\Delta{x}$ at each iteration of the algorithm. 
+This often involves some iterative procedure which applies changes to the parameters, $\Delta{x}$ at each iteration of the algorithm.
 Denoting the parameters at the t-th iteration as $x_t$, this simple update rule becomes:
 
 $$\Delta{x\_t} = - \eta{g\_t}$$
@@ -43,6 +44,6 @@ Compared with SGD, ADAGRAD and MOMENTUM, normally ADADELTA has a convergence fas
 
 ### Personal Thought
 
-Have tried ADADELTA and SGD. Although for each epoch ADADELTA takes longer time to compute, we just have to input (default value) 
+Have tried ADADELTA and SGD. Although for each epoch ADADELTA takes longer time to compute, we just have to input (default value)
 $\rho = 0.95$ and $\epsilon = 1e^{-6}$ then it will learn very well. If use SGD, we have to fine tune the learning
-rate and the error rate is often bigger than ADADELTA. 
+rate and the error rate is often bigger than ADADELTA.

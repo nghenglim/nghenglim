@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Unconditional Basic Income
+tags: [Article]
 ---
 
 ![UBI]({{ site.baseurl }}/images/2015090500.jpg "UBI")

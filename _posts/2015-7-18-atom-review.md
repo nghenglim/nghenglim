@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Atom First Use Review
+tags: [Atom]
 ---
 
 ![Atom]({{ site.baseurl }}/images/2015071800.png "Atom")

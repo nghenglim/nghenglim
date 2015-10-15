@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Atom Review After 2 Weeks
+tags: [Atom]
 ---
 
 ![Atom]({{ site.baseurl }}/images/2015071800.png "Atom")

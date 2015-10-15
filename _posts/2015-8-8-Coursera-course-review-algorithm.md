@@ -1,6 +1,7 @@
 ---
 layout: post
-title: Coursera course review - Machine Learning by Andrew Ng
+title: Coursera course review - Algorithms
+tags: [Coursera, Computer-Science]
 ---
 
 ![Coursera]({{ site.baseurl }}/images/2015080800.jpg "Coursera")

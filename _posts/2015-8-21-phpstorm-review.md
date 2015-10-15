@@ -1,6 +1,7 @@
 ---
 layout: post
 title: PHPStorm 9.0 Review
+tags: [PHPStorm]
 ---
 
 ![PHPStorm]({{ site.baseurl }}/images/2015082200.jpg "PHPStorm")

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Autoclicker with python
+tags: [Python]
 ---
 
 ![Python]({{ site.baseurl }}/images/2015082900.jpg "Python")

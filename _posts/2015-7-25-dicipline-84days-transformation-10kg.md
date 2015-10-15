@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 84 days transformation
+tags: [Article]
 ---
 
 ![84days Transformation]({{ site.baseurl }}/images/2015072500.png "84days Transformation")

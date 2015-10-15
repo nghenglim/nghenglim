@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Coursera course review - From Nand to Tetris
+tags: [Coursera, Computer-Science]
 ---
 
 ![Nand to Tetris]({{ site.baseurl }}/images/2015053000.jpg "Nand to Tetris")
@@ -24,5 +25,3 @@ process done by the laptop -- logic gates, ALU, RAM, BUSES, machine language and
 - This course require no hardware to start, it uses a software program to simulate and to write a logic gate. From the logic gates we build a 16 bits pc.
   - Nowadays, we are building a computer from a computer.
 - There are no part 2 yet, the book "From Nand to Tetris" should contain from assembly to tetris part.
-
-

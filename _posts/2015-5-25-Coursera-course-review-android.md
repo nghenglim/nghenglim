@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Coursera course review - Android
+tags: [Coursera, Android]
 ---
 
 ![Android]({{ site.baseurl }}/images/2015052500.png "android")
@@ -31,5 +32,3 @@ through Android app. Many valuable data will come from it.
 
 With this course, I have learnt the basic of Android programming and have quite some understanding on
 Android architecture.
-
-
