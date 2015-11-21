@@ -1,7 +1,7 @@
 ---
 layout: post
 title: More About My Technology Stack
-tags: [Article, About-Me]
+tags: [Article]
 ---
 
 ![computer-guy]({{ site.baseurl }}/images/2015112100.png "computer-guy")
