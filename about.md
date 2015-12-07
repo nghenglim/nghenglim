@@ -8,16 +8,19 @@ I'm currently a full stack web developer at [JobStreet](http://www.jobstreet.com
 
 ### Skills
 
-- Web Application (PHP, Javascript, Jquery, CSS)
-- Mobile Development (iOS, Android, React Native)
-- Database (Sql, MySQL, MSSQL)
-- Machine Learning (Lua/Python)
-- Server setup (vagrant - CentOS)
-- Self Learning
+- Agile Software Methodology, 
+- Front End/UI/UX ( Material Deign, Twitter Bootstrap, Javascript, Jquery, AngularJS )
+- Mobile Development (Android, React Native - IOS)
+- Web Application Development ( PHP, Database - MySQL/MSSQL, Solr )
+- Web Application performance tracking/analysis
+- Server Automation (Vagrant, Cronjob)
+- Machine learning (with Python)
+- Automation script with python (web crawling, selenium, autoclick, etc)
 
-### Interested In
 
-Software development that makes the world a better place. Uh wait, maybe internet of things too, though less involving in internet of things as it burns a lot of money to buy the hardware.
+### Coursera Accomplishment
+
+![coursera]({{ site.baseurl }}/images/coursera.gif "coursera")
 
 ### Contact me
 
