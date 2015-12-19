@@ -16,10 +16,6 @@ tags: [DB, benchmark]
 <div id="container" style="min-width: 310px; height: 400px; margin: 0 auto">
 </div>
 
-something
-
-- something
-
 <script type="text/javascript">
 
 $(function () {
