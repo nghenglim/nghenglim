@@ -34,7 +34,7 @@ $(function () {
             text: 'Source: <a href="https://nghenglim.github.io">nghenglim.github.io</a>'
         },
         xAxis: {
-            categories: ['Write (0.1m rows)', 'Read (Select)', 'READ (WHERE)', 'READ (WHERE A+B>C)', 'READ (COUNT WHERE A+B>C)', 'READ (WHERE ORDER)', 'READ (%wildcard% + ORDER)'],
+            categories: ['Write (10000 rows)', 'Read (Select)', 'READ (WHERE)', 'READ (WHERE A+B>C)', 'READ (COUNT WHERE A+B>C)', 'READ (WHERE ORDER)', 'READ (%wildcard% + ORDER)'],
             title: {
                 text: null
             }
