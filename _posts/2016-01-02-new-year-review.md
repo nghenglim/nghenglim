@@ -1,0 +1,13 @@
+---
+layout: post
+title: New Year Review
+tags: [Article]
+---
+
+![year2016]({{ site.baseurl }}/images/2016010200.jpg "year2016")
+
+### What I have done
+![2015achievement]({{ site.baseurl }}/images/2016010201.png "2015achievement")
+
+### Technology Skill Set @ 2015
+![skillset]({{ site.baseurl }}/images/2016010202.png "skillset")
