@@ -67,10 +67,10 @@ base:
 base:
   '*':
     - httpd.absent
-    - user.top
-    - nginx.init
+    - user
+    - nginx
 ```
-- /srv/salt/user/top.sls: make use of our pillar users
+- /srv/salt/user/init.sls: make use of our pillar users
 
 ```
 {% raw %}
