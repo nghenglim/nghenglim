@@ -4,7 +4,7 @@ title: SaltStack Vagrant Part 1
 tags: [Salt, Configuration-Management, Vagrant]
 ---
 
-![git]({{ site.baseurl }}/images/2016011600.png "git")
+![saltStack]({{ site.baseurl }}/images/2016011600.png "saltStack")
 
 ### What is SaltStack
 - SaltStack software orchestrates the build and ongoing management of any modern infrastructure.
