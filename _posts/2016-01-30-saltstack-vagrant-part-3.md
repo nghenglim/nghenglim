@@ -28,7 +28,6 @@ config.vm.synced_folder "salt/pillar/", "/srv/pillar/"
   - pillar/  # Unlike state tree, pillar data is only available for the targeted minion specified by the matcher type.
   - salt/  # All the configuration for the minion to run
     - node/ # node formula folder
-    - grains
 ```
 
 ### Svn Export from Github
