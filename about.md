@@ -3,7 +3,7 @@ layout: page
 title: About
 permalink: /about/
 ---
-I'm currently a full stack web developer at [JobStreet](http://www.jobstreet.com) SeekAsia!
+I'm currently a full stack software engineer at [JobStreet](http://www.jobstreet.com) SeekAsia!
 
 ### Skills
 

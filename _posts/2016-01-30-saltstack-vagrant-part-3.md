@@ -65,7 +65,7 @@ If you try `salt-call --local state.highstate` you probably will get an error no
 ### Grains
 Salt comes with an interface to derive information about the underlying system. This is called the grains interface, because it presents salt with grains of information. Grains are collected for the operating system, domain name, IP address, kernel, OS type, memory, and many other system properties.
 
-As of the time I'm writing, [https://github.com/saltstack-formulas/node-formula/blob/master/node/map.jinja](https://github.com/saltstack-formulas/node-formula/blob/master/node/map.jinja) line 19-28 is missing CentOS config for the grains['os'] (most of saltstack formula comes with Ubuntu), so add Centos config
+As of the time I'm writing, [https://github.com/saltstack-formulas/node-formula/blob/master/node/map.jinja](https://github.com/saltstack-formulas/node-formula/blob/master/node/map.jinja) line 19-28 is missing CentOS config for the grains.os (most of saltstack formula comes with Ubuntu), so add Centos config
 
 ```ruby
 'Centos': {
