@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Coursera course review - Android
-tags: [Coursera, Android]
+tags: [MOOC, Android]
 ---
 
 ![Android]({{ site.baseurl }}/images/2015052500.png "android")

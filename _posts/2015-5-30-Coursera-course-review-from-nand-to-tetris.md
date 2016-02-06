@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Coursera course review - From Nand to Tetris
-tags: [Coursera, Computer-Science]
+tags: [MOOC, Computer-Science]
 ---
 
 ![Nand to Tetris]({{ site.baseurl }}/images/2015053000.jpg "Nand to Tetris")

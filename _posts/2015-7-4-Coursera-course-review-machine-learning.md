@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Coursera course review - Machine Learning by Andrew Ng
-tags: [Coursera, Machine-learning]
+tags: [MOOC, Machine-learning]
 ---
 
 ![Machine Learning]({{ site.baseurl }}/images/2015070300.png "Machine Learning")
