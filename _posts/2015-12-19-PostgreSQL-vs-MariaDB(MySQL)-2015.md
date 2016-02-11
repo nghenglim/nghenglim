@@ -24,7 +24,7 @@ $(function () {
             type: 'bar'
         },
         title: {
-            text: 'PostgreSQL vs MariaDB(MySQL)'
+            text: 'PostgreSQL vs MariaDB(MySQL) [QA failed, to be benchmark again]'
         },
         subtitle: {
             text: 'Source: <a href="https://nghenglim.github.io">nghenglim.github.io</a>'
