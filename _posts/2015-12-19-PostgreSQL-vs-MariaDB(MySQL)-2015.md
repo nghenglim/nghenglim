@@ -81,6 +81,9 @@ $(function () {
 
 </script>
 
+### Important Notice (11 Feb 2016)
+When using pgadmin, the execution time at status bar is including data transfer time, unfortunately, I am using pgadmin status bar execution time to compare with MySQL server execution time which is unfair. I will update the correct benchmark soon.
+
 ### Choosing RDBMS
 So recently I want to find benchmark for RDBMS between MySQL/MariaDB and PostgreSQL. To my surprise, most benchmark result is outdated, therefore I have decided to benchmark them, using MariaDB(MySQL) [10.0.22(5.6.26)] vs PostgreSQL [9.2.14]
 
