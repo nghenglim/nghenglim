@@ -100,7 +100,7 @@ Therefore I had enhanced the benchmark. The benchmark script and how to setup is
 - postgres:9.5.0
 
 ### Benchmark Details
-Full detail is at [this Github Repo](https://github.com/nghenglim/database_benchmark)
+Full detail is at [this Github Repo Folder](https://github.com/nghenglim/database_benchmark/tree/master/Mariadb10.1.11-MySQL5.7.10-Postgres9.5.0)
 
 Total Rows: 1 million
 Queries:
@@ -147,6 +147,7 @@ average query time (q4): 169.18ms
 average query time (q5): 229.33ms
 average query time (q6): 207.01ms
 ```
+
 ### Conclusion
 - MariabDB & MySQL has slight advantages at database writing
 - PostgreSQL has slight advantages at simple database read query
