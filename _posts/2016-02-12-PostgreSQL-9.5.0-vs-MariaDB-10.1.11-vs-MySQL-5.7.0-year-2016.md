@@ -104,6 +104,7 @@ Therefore I had enhanced the benchmark. The benchmark script and how to setup is
 Full detail is at [this Github Repo Folder](https://github.com/nghenglim/database_benchmark/tree/master/Mariadb10.1.11-MySQL5.7.10-Postgres9.5.0)
 
 Total Rows: 1 million
+
 Queries:
 
 1. `SELECT * FROM testing LIMIT 1000`
