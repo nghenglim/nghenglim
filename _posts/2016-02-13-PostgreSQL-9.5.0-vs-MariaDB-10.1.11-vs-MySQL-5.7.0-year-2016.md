@@ -74,7 +74,7 @@ $(function () {
             data: [50.02, 3.87, 4.36, 5.18, 261.69, 741.55, 639.75]
         }, {
             name: 'MySQL',
-            data: [50.02, 3.69, 4.12, 4.82, 266.56, 4709.33, 519.29]
+            data: [50.86, 3.42, 3.91, 5.33, 246.77, 6686.11, 508.9]
         }, {
             name: 'PostgreSQL',
             data: [79.2, 3.27, 3.62, 4, 169.18, 229.33, 207.01]
@@ -92,7 +92,7 @@ Therefore I had enhanced the benchmark. The benchmark script and how to setup is
 ### Benchmark Environment (Vagrant)
 - Ubuntu wily werewolf (15.10)
 - 1 core CPU, 100% execution cap
-- 1024 GB memory
+- 1024 MB memory
 
 ### Benchmark Environment (Docker)
 - mariadb:10.1.11
@@ -127,13 +127,13 @@ average query time (q6): 639.75ms
 MySQL Summary:
 
 ```
-average write time: 50.02ms/10000rows
-average query time (q1): 3.69ms
-average query time (q2): 4.12ms
-average query time (q3): 4.82ms
-average query time (q4): 266.56ms
-average query time (q5): 4709.33ms
-average query time (q6): 519.39ms
+average write time: 50.86ms/10000rows
+average query time (q1): 3.42ms
+average query time (q2): 3.91ms
+average query time (q3): 5.33ms
+average query time (q4): 246.77ms
+average query time (q5): 6686.11ms
+average query time (q6): 508.9ms
 ```
 
 PostgreSQL Summary:
