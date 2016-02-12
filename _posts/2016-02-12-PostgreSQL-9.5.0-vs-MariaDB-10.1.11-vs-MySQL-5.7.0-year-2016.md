@@ -153,4 +153,4 @@ average query time (q6): 207.01ms
 - PostgreSQL has slight advantages at simple database read query
 - PostgreSQL has big advantages at complex database read query
 
-As a result, I think that choosing PostgreSQL is a better options for new project - provided that PostgreSQL comes with more features and following standard SQL.
+As a result, I think that choosing PostgreSQL is a better options for RDBMS - provided that PostgreSQL comes with more features and following standard SQL.
