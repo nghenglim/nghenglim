@@ -2,6 +2,7 @@
 layout: post
 title: PostgreSQL [9.5.0] vs MariaDB [10.1.11] vs MySQL [5.7.0] year 2016
 tags: [DB, benchmark]
+image: images/2015121900.jpg
 ---
 
 ![PostgreSQL-MySQL]({{ site.baseurl }}/images/2015121900.jpg "PostgreSQL-MySQL")
