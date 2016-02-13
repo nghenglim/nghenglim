@@ -14,8 +14,8 @@ image: images/2015121900.jpg
 <script src="http://code.highcharts.com/modules/exporting.js">
 </script>
 
-<div id="container" style="min-width: 600px; height: 400px; margin: 0 auto">
-</div>
+<div id="container" style="min-width: 600px; height: 400px; margin: 0 auto"></div>
+<div id="container2" style="min-width: 600px; height: 400px; margin: 0 auto"></div>
 
 <script type="text/javascript">
 
@@ -85,6 +85,73 @@ $(function () {
 
 </script>
 
+<script type="text/javascript">
+
+$(function () {
+    $('#container2').highcharts({
+        chart: {
+            type: 'bar'
+        },
+        title: {
+            text: 'PostgreSQL 9.5.0 vs MariaDB 10.1.11 vs MySQL 5.7.0'
+        },
+        subtitle: {
+            text: 'Source: <a href="https://nghenglim.github.io">nghenglim.github.io</a>'
+        },
+        xAxis: {
+            categories: ['Write (10000 rows)', 'Read (Select)', 'READ (WHERE)', 'READ (WHERE A+B>C)', 'READ (COUNT WHERE A+B>C)', 'READ (WHERE ORDER)', 'READ (%wildcard% + ORDER)'],
+            title: {
+                text: null
+            }
+        },
+        yAxis: {
+            min: 0,
+            title: {
+                text: 'Time Taken in natural log(millisecond)',
+                align: 'high'
+            },
+            labels: {
+                overflow: 'justify'
+            }
+        },
+        tooltip: {
+            valueSuffix: ' log(millisecond)'
+        },
+        plotOptions: {
+            bar: {
+                dataLabels: {
+                    enabled: true
+                }
+            }
+        },
+        legend: {
+            layout: 'vertical',
+            align: 'right',
+            verticalAlign: 'top',
+            x: 0,
+            y: 90,
+            floating: true,
+            borderWidth: 1,
+            backgroundColor: ((Highcharts.theme && Highcharts.theme.legendBackgroundColor) || '#FFFFFF'),
+            shadow: true
+        },
+        credits: {
+            enabled: false
+        },
+        series: [{
+            name: 'MariaDB',
+            data: [3.91242293, 1.35325451, 1.47247206, 1.64480506, 5.5671606, 6.60874259, 6.46107748]
+        }, {
+            name: 'MySQL',
+            data: [3.92907676, 1.22964055, 1.36353737, 1.67335124, 5.50845673, 8.80778752, 6.23225153]
+        }, {
+            name: 'PostgreSQL',
+            data: [4.3719763,  1.18478998, 1.28647403, 1.38629436, 5.13096324, 5.43516201, 5.3327671]
+        }]
+    });
+});
+
+</script>
 ### Reason to Benchmark
 On Dec 2015 I have done a similar [benchmark](http://nghenglim.github.io/PostgreSQL-vs-MariaDB(MySQL)-2015/), however I had done some serious mistake on the benchmark and caused the result to be biased towards MySQL.
 
