@@ -157,6 +157,19 @@ On Dec 2015 I have done a similar [benchmark](http://nghenglim.github.io/Postgre
 
 Therefore I had enhanced the benchmark. The benchmark script and how to setup is at [this Github Repo](https://github.com/nghenglim/database_benchmark).
 
+### Notice & FAQ
+- Why using default database configuration / configuration between databases is difference:
+  - This benchmark is using default configuration that comes with the docker image.
+  - Time consuming to standardize databases configuration
+  - Default configuration should give a basic idea on how the database performs.
+- Why missing benchmark on index, included data transfer time for benchmark, etc:
+  - Is in the To Do list, however IMHO these are good to have benchmark.
+  - Preferably others can help to enhance the [script](https://github.com/nghenglim/database_benchmark).
+- Why run in VM which make this benchmark not so reliable:
+  - Do not want to spend money to buy a physical server or cloud instances.
+  - Make benchmark decentralized, everyone who had a laptop should be able to do their own benchmark instead of relying on others.
+  - A rough idea on how these databases perform is very important knowledge for all the developer.
+
 ### Benchmark Environment (Vagrant)
 - Ubuntu wily werewolf (15.10)
 - 1 core CPU, 100% execution cap
