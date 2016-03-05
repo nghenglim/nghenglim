@@ -26,15 +26,15 @@ Good news - with some enhance on the AppDelegate.m file that come with the Aweso
 
 First declare the variable, and set the filepath default store and get from the document directory.
 
-```c
+~~~ c
 NSArray   *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
 NSString  *documentsDirectory = [paths objectAtIndex:0];
 NSString  *filePath = [NSString stringWithFormat:@"%@/%@", documentsDirectory,@"index.ios.bundle"];
-```
+~~~ 
 
 Under OPTION 2, asynchronously download file from server. Detect if the file exist in document directory, if the new bundle file exist, load from the document directory. Else, load from the pre-bundled file on the disk:
 
-```c
+~~~ c
 dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
   NSURL  *url = [NSURL URLWithString:@"http://localhost:8081/index.ios.bundle?platform=ios&dev=true"];
   NSData *urlData = [NSData dataWithContentsOfURL:url];
@@ -53,7 +53,7 @@ if (fileExists) {
 } else {
   jsCodeLocation = [[NSBundle mainBundle] URLForResource:@"main" withExtension:@"jsbundle"];
 }
-```
+~~~ 
 
 ### Some note
 

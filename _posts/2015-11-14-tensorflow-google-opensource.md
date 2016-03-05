@@ -25,7 +25,7 @@ Put the file at `/home/vagrant/notebook/`
 
 Execute `python fully_connected_feed.py`, it should run and give you the result like this
 
-```
+~~~ 
 Step 1000: loss = 0.40 (0.007 sec)
 Step 1100: loss = 0.52 (0.087 sec)
 Step 1200: loss = 0.46 (0.005 sec)
@@ -42,7 +42,7 @@ Validation Data Eval:
   Num examples: 5000  Num correct: 4508  Precision @ 1: 0.9016
 Test Data Eval:
   Num examples: 10000  Num correct: 8978  Precision @ 1: 0.8978
-```
+~~~ 
 
 ### Graph visualization
 

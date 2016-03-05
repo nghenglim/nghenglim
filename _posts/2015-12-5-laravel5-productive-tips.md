@@ -15,7 +15,7 @@ With the news that [PHP 7 had been released on December the 3th](https://twitter
 
 - Create migration scripts directly from database, at the time I'm writing, the composer default supporting laravel-4. With this settings, we can easily generate migration script with `php artisan migrate:generate flights`
 
-```
+~~~ 
 "require-dev": {
     "fzaninotto/faker": "~1.4",
     "mockery/mockery": "0.9.*",
@@ -34,11 +34,11 @@ With the news that [PHP 7 had been released on December the 3th](https://twitter
 # config/app.php
 'Way\Generators\GeneratorsServiceProvider',
 'Xethron\MigrationsGenerator\MigrationsGeneratorServiceProvider',
-```
+~~~ 
 
 - Reinstall Form + Html helper, [from laravel collective](https://laravelcollective.com/docs/5.1/html)
 
-```
+~~~ 
 #composer.json
 "require": {
     "laravelcollective/html": "5.1.*"
@@ -58,7 +58,7 @@ With the news that [PHP 7 had been released on December the 3th](https://twitter
     'Html' => Collective\Html\HtmlFacade::class,
   // ...
 ],
-```
+~~~ 
 
 - Get a good open source IDE: [Atom](https://atom.io/)
   - no more sublime prompt when saving (ignore if you have never used sublime text)

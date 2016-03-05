@@ -13,7 +13,7 @@ Normally we set the tab length at File > Settings.
 ### Problem Solving
 So how to solve it? Just go to "File > Open Your Config" to open config.cson, then paste the config below.
 
-```javascript
+~~~ javascript
 "*":
   "exception-reporting":
     userId: ":)"
@@ -32,7 +32,7 @@ So how to solve it? Just go to "File > Open Your Config" to open config.cson, th
 ".php":
   editor:
     tabLength: 4
-```
+~~~ 
 
 ### Explanation
 - "*" is meaning wildcard for all type of file, which come along after Atom has been installed

@@ -196,7 +196,7 @@ Queries:
 
 MariaDB Summary:
 
-```
+~~~ 
 average write time: 50.02ms/10000rows
 average query time (q1): 3.87ms
 average query time (q2): 4.36ms
@@ -204,11 +204,11 @@ average query time (q3): 5.18ms
 average query time (q4): 261.69ms
 average query time (q5): 741.55ms
 average query time (q6): 639.75ms
-```
+~~~ 
 
 MySQL Summary:
 
-```
+~~~ 
 average write time: 50.86ms/10000rows
 average query time (q1): 3.42ms
 average query time (q2): 3.91ms
@@ -216,11 +216,11 @@ average query time (q3): 5.33ms
 average query time (q4): 246.77ms
 average query time (q5): 6686.11ms
 average query time (q6): 508.9ms
-```
+~~~ 
 
 PostgreSQL Summary:
 
-```
+~~~ 
 average write time: 79.2ms/10000rows
 average query time (q1): 3.27ms
 average query time (q2): 3.62ms
@@ -228,7 +228,7 @@ average query time (q3): 4.0ms
 average query time (q4): 169.18ms
 average query time (q5): 229.33ms
 average query time (q6): 207.01ms
-```
+~~~ 
 
 ### Conclusion
 - MariabDB & MySQL has slight advantages at database writing

@@ -17,17 +17,17 @@ tags: [Salt, Configuration-Management, Vagrant]
     - Achievement `development server == production server` Unlocked
 
 ### Vagrant Folder Structure
-```
+~~~ 
 - salt/
   - root/
     - top.sls
     - webserver.sls
   - minion
 - Vagrantfile
-```
+~~~ 
 
 ### Vagrantfile Setup
-```ruby
+~~~ ruby
 Vagrant.configure("2") do |config|
 
     # load up the box for centos 6.6
@@ -47,17 +47,17 @@ Vagrant.configure("2") do |config|
 
     end
 end
-```
+~~~ 
 
 ### top.sls
-```ruby
+~~~ ruby
 base:
   '*':
     - webserver
-```
+~~~ 
 
 ### webserver.sls
-```ruby
+~~~ ruby
 httpd:               # ID declaration
   pkg:                # state declaration
     - installed       # function declaration
@@ -65,12 +65,12 @@ httpd:               # ID declaration
     - enable: True
     - require:
         - pkg: httpd
-```
+~~~ 
 
 ### minion
-```ruby
+~~~ ruby
 file_client: local
-```
+~~~ 
 
 ### Ending
 Run `vagrant up` you should get a CentOS_7_x64 box with httpd server installed!
