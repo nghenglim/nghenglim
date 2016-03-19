@@ -1,7 +1,7 @@
 ---
 layout: post
 title: TensorFlow Udacity 1_notmnist - Part 1
-tags: [Article]
+tags: [Machine-Learning]
 ---
 
 ![tensorflow-udacity]({{ site.baseurl }}/images/2016031900.png "tensorflow-udacity")
