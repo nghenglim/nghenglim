@@ -12,7 +12,7 @@ Basically 1_notmnist is to learn how to display data in Jupyter Notebook. Beside
 ### Notice
 This is as a form of sharing and discuss on better way to solve 1_notmnist problem. Do not copy and paste directly as it does not help on improving yourself + the answer is not optimized.
 
-The entire series of TensorFlow Udacity can be found at [here](http://nghenglim.github.io/tags/#Tensorflow-Udacity-ref)
+The entire series of TensorFlow Udacity can be found at [here](http://nghenglim.github.io/tags/#TensorFlow-Udacity-ref)
 
 ### Preparation
 ~~~bash
