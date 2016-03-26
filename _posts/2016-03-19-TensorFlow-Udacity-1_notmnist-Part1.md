@@ -1,7 +1,7 @@
 ---
 layout: post
 title: TensorFlow Udacity 1_notmnist - Part 1
-tags: [Machine-Learning]
+tags: [Machine-Learning,TensorFlow-Udacity]
 ---
 
 ![tensorflow-udacity]({{ site.baseurl }}/images/2016031900.png "tensorflow-udacity")
@@ -11,6 +11,8 @@ Basically 1_notmnist is to learn how to display data in Jupyter Notebook. Beside
 
 ### Notice
 This is as a form of sharing and discuss on better way to solve 1_notmnist problem. Do not copy and paste directly as it does not help on improving yourself + the answer is not optimized.
+
+The entire series of TensorFlow Udacity can be found at [here](http://nghenglim.github.io/tags/#Tensorflow-Udacity-ref)
 
 ### Preparation
 ~~~bash
