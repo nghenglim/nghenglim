@@ -15,7 +15,7 @@ This is as a form of sharing and discuss on better way to solve 1_notmnist probl
 The entire series of TensorFlow Udacity can be found at [here](http://nghenglim.github.io/tags/#TensorFlow-Udacity-ref)
 
 
-### Solving Problem 3
+### Solving Problem 4
 ~~~python
 print(np.unique(train_labels))
 print(np.unique(test_labels))
