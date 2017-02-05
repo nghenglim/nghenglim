@@ -6,7 +6,7 @@ tags: [NodeJS, nghenglim-open-source]
 
 It has been awhile since I have been inactive in open-source world. Although nowadays trend is in VR, AI and iOT, API development is still needed.
 
-[FawkesJs](https://github.com/fawkesjs/fawkesjs) is a Javascript framework that is built on top of express, typescript and MVC structure. Inspired from Laravel and Loopback, the target of the framework is to make Javascript development even easier.
+[FawkesJs](https://github.com/fawkesjs/fawkesjs) is a Javascript framework that is built on top of express, typescript and MVC structure. Inspired by Laravel and Loopback, the target of the framework is to make Javascript development even easier.
 
 ## Build in structure in this project
 - Express
