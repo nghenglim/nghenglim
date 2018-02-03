@@ -26,11 +26,16 @@ Well I actually think making a wrapper on top of Hyper will be good enough! I cu
 The code is still in development, I plan to use it as the main framework for my pet project.
 
 ## Example Usage
+To test it (assumed you have rust cargo installed)
+~~~bash
+git clone https://github.com/nghenglim/hyperap
+cd hyperap && cargo run
+~~~
 ~~~rs
 extern crate hyperap;
-use hyperap::hyper::server::{Response, Request};
+use hyperap::hyper::server::{Response};
 use hyperap::hyper::{Method};
-use hyperap::server::{HyperApp, Middleware};
+use hyperap::server::{HyperApp, Middleware, MiddlewareParam};
 use hyperap::response::{resp};
 
 fn get_static(_a: MiddlewareResult) -> Response {
@@ -39,6 +44,9 @@ fn get_static(_a: MiddlewareResult) -> Response {
 fn hello_world(a: MiddlewareResult) -> Response {
     resp(a.hello.clone() + " at path " + &a.path)
 }
+fn not_found_route(a: MiddlewareResult) -> Response {
+    resp("not found route at path ".to_owned() + &a.path)
+}
 pub struct App {
     pub hello: String,
 }
@@ -46,13 +54,24 @@ pub struct MiddlewareResult {
     path: String,
     pub hello: String,
 }
+#[derive(Clone)]
+pub struct RouteDefinition {
+    parameters: Vec<RouteDefinitionParameters>
+}
+#[derive(Clone)]
+pub struct RouteDefinitionParameters {
+    _in: String,
+    _name: String,
+}
 impl Middleware for App {
     type M = MiddlewareResult;
-    fn middleware(&self, req: Request) -> Self::M {
-        MiddlewareResult {
-            path: req.path().to_owned(),
+    type R = RouteDefinition;
+    fn middleware(&self, p: MiddlewareParam<MiddlewareResult, Self::R>) -> Response {
+        let m = MiddlewareResult {
+            path: p.req.path().to_owned(),
             hello: self.hello.clone(),
-        }
+        };
+        (p.func)(m)
     }
 }
 fn main() {
@@ -61,8 +80,14 @@ fn main() {
     };
     let mut app = HyperApp::new(the_app);
     app.open_browser(true);
-    app.add_route(&Method::Get, "/static", get_static);
-    app.add_route(&Method::Get, "/", hello_world);
+    app.set_default_route(not_found_route);
+    app.add_route(Method::Get, "/static", get_static, vec![RouteDefinition {
+        parameters: vec![RouteDefinitionParameters {
+            _in: "query".to_owned(),
+            _name: "offset".to_owned(),
+        }]
+    }]);
+    app.add_pure_route(Method::Get, "/", hello_world);
     app.port(3000);
     app.run();
 }
