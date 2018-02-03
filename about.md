@@ -3,17 +3,14 @@ layout: page
 title: About
 permalink: /about/
 ---
-I'm currently a full stack software engineer at [Laputa Ventures](http://www.laputa.com.my)!
+I'm currently a Senior NodeJS Software Engineer at Laputa Ventures!
 
-### Skills
+### Area of focus
+I'm currently focus in building webservices using rust!
 
-Click to open full image with magnifier
-[![Tech Skill]({{ site.baseurl }}/images/Tech_Skill.png "Tech Skill")]({{ site.baseurl }}/images/Tech_Skill.png)
-
-
-### Coursera Accomplishment
-
-![coursera]({{ site.baseurl }}/images/coursera.gif "coursera")
+### What I Mostly Do
+- Set up Web Services from 0 to 1: SaltStack, Jenkins, NodeJS, Typescript, Angular, React and etc.
+- Dreaming and take action on my personal time
 
 ### Contact me
 
