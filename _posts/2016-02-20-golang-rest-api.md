@@ -11,7 +11,7 @@ We will use gvm to install go for the current user. Note that we need to use go1
 
 Note that gvm is mainly for development use, IMHO using tar install or docker is a better way for production server.
 
-~~~
+~~~ bash
 bash < <(curl -s -S -L https://raw.githubusercontent.com/moovweb/gvm/master/binscripts/gvm-installer)
 gvm install go1.4
 gvm use go1.4
@@ -26,7 +26,7 @@ Gin is a web framework written in Go (Golang). It features a martini-like API wi
 go get github.com/gin-gonic/gin
 ~~~
 
-~~~
+~~~ go
 #~/golang/server.go
 package main
 
@@ -50,7 +50,7 @@ However for development, it is important to have compile on files changed functi
 
 Running below code will autostart the go app.
 
-~~~
+~~~ bash
 go get github.com/codegangsta/gin
 cd ~/golang/
 gin -i -a 8080
@@ -58,7 +58,7 @@ gin -i -a 8080
 
 now change the code without terminating gin
 
-~~~
+~~~ bash
 #~/golang/server.go
 package main
 

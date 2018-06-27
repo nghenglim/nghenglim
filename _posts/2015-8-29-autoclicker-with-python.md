@@ -19,7 +19,7 @@ I have uploaded the code to the [python autoclicker github repo](https://github.
 
 As I am running in windows 8, there are some python module that is needed to be installed through window binaries - for example pywin32.
 
-~~~ 
+~~~py
 import win32api
 import win32con #for the VK keycodes
 import time
@@ -99,4 +99,4 @@ while True:
             input("Press Enter to restart...")
     else:
         sleep = 0
-~~~ 
+~~~

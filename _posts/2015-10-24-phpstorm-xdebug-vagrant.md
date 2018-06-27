@@ -16,14 +16,14 @@ Xdebug is a PHP extension which provides debugging and profiling capabilities. M
 - resume and continue to next breakpoint
 
 ### At vagrant
-~~~ c
+~~~ bash
 yum install php-devel
 yum install php-pear
 yum install gcc gcc-c++ autoconf automake
 pecl install Xdebug
-~~~ 
+~~~
 
-~~~ c
+~~~ bash
 #/etc/php.d/xdebug.ini
 [xhprof]
 zend_extension="/usr/lib64/php/modules/xdebug.so"
@@ -33,11 +33,11 @@ xdebug.idekey = "PHPSTORM"
 xdebug.remote_handler=dbgp
 xdebug.remote_host=10.0.2.2
 xdebug.remote_port=9001
-~~~ 
+~~~
 
-~~~ c
+~~~ bash
 service httpd restart
-~~~ 
+~~~
 
 ### At PHPStorm
 - File > Settings > Language & Frameworks > PHP > Servers: setup

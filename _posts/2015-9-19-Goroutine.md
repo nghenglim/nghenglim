@@ -24,7 +24,7 @@ To summarise, golang achieve concurrency with the implementation of goroutine an
 ### Advantage of goroutine
 - No callback hell, example at [stackoverflow](http://stackoverflow.com/a/23709882)
 
-  ~~~ javascript
+  ~~~ js
   //nodejs
   doSomething1(arg1, arg2, function() {
     doSomething2(arg1, arg2, function() {
@@ -34,8 +34,8 @@ To summarise, golang achieve concurrency with the implementation of goroutine an
     });
   });
   somethingElse();
-  ~~~ 
-  ~~~ javascript
+  ~~~
+  ~~~ go
   //golang
   go func() {
     doSomething1(arg1, arg2)
@@ -44,5 +44,5 @@ To summarise, golang achieve concurrency with the implementation of goroutine an
     // done
   }()
   somethingElse()
-  ~~~ 
+  ~~~
 - Faster startup time and light weight than threads = run more, run faster

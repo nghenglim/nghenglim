@@ -14,7 +14,7 @@ The below setup will be using Apache + Laravel approach, as nginx + PHP-FPM seem
 
 at your remote server
 
-~~~ 
+~~~ bash
 rpm -Uvh https://mirror.webtatic.com/yum/el7/webtatic-release.rpm
 yum install httpd php56w php56w-mysqlnd mariadb-server php56w-mcrypt php56w-dom php56w-mbstring
 curl  -k -sS https://getcomposer.org/installer | php
@@ -43,17 +43,17 @@ git init --bare
 cat > post-receive
 #!/bin/sh
 git --work-tree=/var/www/laravel --git-dir=/var/repo/site.git checkout -f
-~~~ 
+~~~
 
 at your local desktop
 
-~~~ 
+~~~ bash
 git init
 git remote add live ssh://username@your.localhost.com/var/repo/site.git
 git add .
 git commit -m "Initial commit"
 git push live master
-~~~ 
+~~~
 
 ### Conclusion
 With this setup, we can easily test our code inside our VM.

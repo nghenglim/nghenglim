@@ -14,13 +14,13 @@ The reason behind this is because my default drive is C drive, and when I join c
 So now the vagrant point to the wrong VM, how can I get back the previous vagrant box? Because rerun the vagrant setup will need about 30 mins like that and there are some database data inside my VM. Therefore, the solution is to let the vagrant to point back the correct file.
 
 ### Scripts
-~~~ javascript
+~~~ bash
 cd "C:\Program Files\Oracle\VirtualBox"
 VBoxManage.exe list vms
 "vagrant_box" {d055f9f7-6b67-4080-a4b0-2b4f149cac4d}
 
 touch vagrant/tools/.vagrant/machines/default/virtualbox/id
-~~~ 
+~~~
 
 Paste the above id d055f9f7-6b67-4080-a4b0-2b4f149cac4d inside the id file that just created, then vagrant up, and this should solve the issue.
 

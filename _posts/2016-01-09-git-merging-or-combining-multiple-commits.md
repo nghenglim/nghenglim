@@ -14,30 +14,30 @@ tags: [Git]
 ### The Solution: Git Rebase
 As in my commit message I use issue number such as `#143 fix abc`, therefore I set git config comment character to ";".
 
-~~~ 
+~~~ bash
 git config core.commentchar ";"
 git log --pretty=oneline
 git rebase --interactive HEAD~2
-~~~ 
+~~~
 
 in this example, this is what you might see
 
-~~~ 
+~~~ bash
 pick abc2345 testing
 pick def1234 latest commit
-~~~ 
+~~~
 
 edit it to
 
-~~~ 
+~~~ bash
 pick abc2345 testing
 s def1234 latest commit
-~~~ 
+~~~
 
 save it and execute
-~~~ 
+~~~ bash
 git log --pretty=oneline
-~~~ 
+~~~
 
 and you will find that the latest 2 commit has been merged to one
 
